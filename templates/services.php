@@ -15,7 +15,7 @@
 				<nav id="breadcrumbs">
 					<ul>
 						<li>You are here:</li>
-						<li><a href="#">Home</a></li>
+						<li><a href="./">Home</a></li>
 						<li>Services</li>
 					</ul>
 				</nav>
@@ -81,7 +81,7 @@
 		</div>
 
 		<div class="four columns">
-			<a href="#">
+			<a href="javascript:void(0)">
 				<div class="notice-box">
 					<h3>Web Design</h3>
 					<i class="icon-laptop"></i>
@@ -91,7 +91,7 @@
 		</div>
 
 		<div class="four columns">
-			<a href="#">
+			<a href="javascript:void(0)">
 				<div class="notice-box">
 					<h3>Business Development</h3>
 					<i class="icon-folder-open-alt"></i>
@@ -101,7 +101,7 @@
 		</div>
 
 		<div class="four columns">
-			<a href="#">
+			<a href="javascript:void(0)">
 				<div class="notice-box">
 					<h3>Social Marketing</h3>
 					<i class="icon-thumbs-up"></i>
@@ -111,7 +111,7 @@
 		</div>
 
 		<div class="four columns">
-			<a href="#">
+			<a href="javascript:void(0)">
 				<div class="notice-box">
 					<h3>Database Service</h3>
 					<i class="icon-hdd"></i>

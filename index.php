@@ -5,7 +5,7 @@ define('DOT', '.');
 require_once DOT . "/bootstrap.php";
 
 //Home page//
-$Route->add('/', function () {
+$Route->add('/empak/', function () {
     $Template = new Apps\Template;
     $Template->addheader("layouts.header");
     $Template->addfooter("layouts.footer");
@@ -17,7 +17,7 @@ $Route->add('/', function () {
 //Home page//
 
 
-$Route->add('/{page}', function ($page) {
+$Route->add('/empak/{page}', function ($page) {
     $Template = new Apps\Template;
     $Template->addheader("layouts.header");
     $Template->addfooter("layouts.footer");

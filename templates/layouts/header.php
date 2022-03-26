@@ -17,12 +17,12 @@
     <!-- Mobile Specific Metas
 ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<!-- Favicon
+    <!-- Favicon
 =================================================-->
-<link rel="apple-touch-icon" sizes="180x180" href="<?=$assets?>/images/favicon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="<?=$assets?>/images/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="<?=$assets?>/images/favicon/favicon-16x16.png">
-<link rel="manifest" href="<?=$assets?>/images/favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?= $assets ?>/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?= $assets ?>/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?= $assets ?>/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="<?= $assets ?>/images/favicon/site.webmanifest">
     <!-- CSS
 ================================================== -->
     <link rel="stylesheet" href="<?= $assets ?>/css/style.css">
@@ -66,20 +66,26 @@
                 <nav id="navigation" class="menu">
                     <ul id="responsive">
 
-                        <li><a href="./" id="<?= $menukey == "home" ? "current" : null ?>">Home</a></li>
-
-                        <li><a href="./about" id="<?= $menukey == "about" ? "current" : null ?>">About us</a>
-
+                        <li>
+                            <a href="./" id="<?= $menukey == "home" ? "current" : null ?>">Home</a>
                         </li>
 
-                        <li><a href="./contact-us" id="<?= $menukey == "contact-us" ? "current" : null ?>">Contact Us</a>
+                        <li>
+                            <a href="./about" id="<?= $menukey == "about" ? "current" : null ?>">About us</a>
                         </li>
 
-                        <li><a href="./services" id="<?= $menukey == "services" ? "current" : null ?>">Services</a>
+                        <li>
+                            <a href="./contact-us" id="<?= $menukey == "contact-us" ? "current" : null ?>">Contact Us</a>
                         </li>
 
+                        <li>
+                            <a href="./services" id="<?= $menukey == "services" ? "current" : null ?>">Services</a>
                         </li>
 
+                        <li>
+                            <a href="./products" id="<?= $menukey == "products" || $menukey == "azederiva" || $menukey == "a4snet"? "current" : null ?>">Partners & Products</a>
+                        </li>
+                        
                         <!-- Search Form -->
 
 
